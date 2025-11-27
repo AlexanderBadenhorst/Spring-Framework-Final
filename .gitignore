@@ -1,0 +1,56 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn
+**/target/
+
+### Java ###
+*.class
+*.log
+*.tmp
+*.swp
+*.swo
+
+### Spring Boot ###
+*.pid
+
+### IntelliJ Idea ###
+spring-tutorial04/.idea/
+*.iml
+out/
+
+### VS Code ###
+.vscode/
+
+### Eclipse ###
+.project
+.classpath
+.settings/
+bin/
+
+### OS Garbage ###
+.DS_Store
+Thumbs.db
+
+### Docker ###
+# Ignore Docker build context artifacts
+**/docker-compose-spring-boot-postgres-master-app/
+**/docker-compose/
+**/docker/overlay2/
+**/docker/volumes/
+
+# Ignore Postgres volumes
+db/
+postgres-data/
+**/pgdata/
+
+### Node (just in case) ###
+node_modules/
+
+### Logs ###
+logs/
+*.log
+
+### WSL ###
+/mnt/wsl/
