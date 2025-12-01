@@ -76,15 +76,16 @@ exception/
 ## ▶ Running the Application
 
 ### 1. Clone the repository
+Repository available at:
 
-git clone <your-repo-url>
+https://github.com/AlexanderBadenhorst/Spring-Framework-Final/tree/3a7985894ca1a03e15a6191e15bb42bf22689c6d/Project/library
 
 ### 2. Open the project in IntelliJ / Eclipse / VS Code
 ### 3. Run the Spring Boot application
 
-Run the main class:
+**Run the main class:**
 
-LibraryApplication.java
+*LibraryApplication.java*
 
 ## 4. Open Swagger UI
 http://localhost:8080/swagger-ui/index.html
